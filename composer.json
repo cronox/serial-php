@@ -1,0 +1,31 @@
+{
+  "name": "cronox/serial-php",
+  "description": "Library for communication between serial port and PHP",
+  "keywords": [
+    "serial",
+    "com",
+    "sim800"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Michał Jagodziński",
+      "email": "cronox.base@gmail.com",
+      "homepage": "http://cronox.info",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.2"
+  },
+  "require-dev": {},
+  "autoload": {
+    "psr-4": {
+      "Cronox\\SerialPHP\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {}
+  }
+}
+
